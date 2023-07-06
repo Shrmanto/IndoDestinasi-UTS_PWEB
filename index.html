@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TugasUTS</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="home.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm" style="display: flex; background-color: #ffffff; justify-content: space-between; align-items: center; padding: 1.4rem 7%">
+      <div class="nav-brand">
+        <i
+          ><a href="">Indo<span>Destinasi</span></a></i
+        >
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-items">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="btn-getstart nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Get Started</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Login.html">Sign In</a></li>
+            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section class="Jumbot" id="home">
+      <div class="content">
+        <div class="row">
+          <div class="col-10">
+            <h3 class="display-4"><span>Destinasi</span> Impian <span>Petualang</span></h3>
+            <p class="lead mt-3">Destinasi Indonesia tak hanya tentang pantai dan pulau, tapi juga pegunungan, hutan, danau, dan banyak lagi yang membuatnya menjadi surga bagi para pentualang.</p>
+            <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about d-flex justify-content-center align-items-center text-center" id="about">
+      <div class="content">
+        <div class="about-us">
+          <h1>About</h1>
+          <p class="mt-5">
+            Web destinasi Indonesia adalah sebuah situs web yang menyediakan informasi dan panduan lengkap tentang berbagai destinasi wisata yang ada di Indonesia. Situs web ini berisi artikel, foto, dan video yang menjelaskan secara detail tentang
+            keindahan alam, keunikan budaya, kuliner, serta aktivitas wisata yang dapat dilakukan di berbagai destinasi wisata di Indonesia.
+          </p>
+        </div>
+        <div class="row mt-5 d-flex justify-content-center align-items-center">
+          <div class="col-3">
+            <div class="card" style="width: 13rem">
+              <img src="Img/bromo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Gunung Bromo</h5>
+                <p class="card-text">Gunung Bromo terkenal dengan pemandangan matahari terbitnya......</p>
+                <a class="detail" href="Bromo.html">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mx-5">
+            <div class="card" style="width: 13rem">
+              <img src="Img/rinjani.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Gunung Rinjani</h5>
+                <p class="card-text">Gunung Rinjani dikenal sebagai salah satu destinasi pendaki......</p>
+                <a class="detail" href="#">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 13rem">
+              <img src="Img/Ijen.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Gunung Ijen</h5>
+                <p class="card-text">Gunung Ijen adalah sebuah gunung berapi yang terletak di uj......</p>
+                <a class="detail" href="#">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact mt-5" id="contact">
+      <div class="content">
+        <div class="contact-me d-flex justify-content-center align-items-center mb-3">
+          <h1>Contact <span>Me</span></h1>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nama</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nama" />
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="mb-3">
+              <a class="btn btn-primary" style="--bs-btn-padding-y: 0.75rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 1rem" href="#" role="button">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="content pt-3">
+        <p>indoDestinasi</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  </body>
+</html>
